@@ -16,6 +16,8 @@
 		026BFAA4201C6A3100589C73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 026BFAA3201C6A3100589C73 /* main.m */; };
 		026BFAAE201C6A3100589C73 /* cglotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026BFAAD201C6A3100589C73 /* cglotteryTests.m */; };
 		026BFAB9201C6A3100589C73 /* cglotteryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026BFAB8201C6A3100589C73 /* cglotteryUITests.m */; };
+		026BFACC201C715200589C73 /* LineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 026BFACB201C715200589C73 /* LineTableViewCell.m */; };
+		026BFACF201C720A00589C73 /* CYFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 026BFACE201C720A00589C73 /* CYFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		026BFAB4201C6A3100589C73 /* cglotteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cglotteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		026BFAB8201C6A3100589C73 /* cglotteryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cglotteryUITests.m; sourceTree = "<group>"; };
 		026BFABA201C6A3100589C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026BFACA201C715200589C73 /* LineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineTableViewCell.h; sourceTree = "<group>"; };
+		026BFACB201C715200589C73 /* LineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineTableViewCell.m; sourceTree = "<group>"; };
+		026BFACD201C720A00589C73 /* CYFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYFunction.h; sourceTree = "<group>"; };
+		026BFACE201C720A00589C73 /* CYFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYFunction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		026BFA90201C6A3100589C73 /* cglottery */ = {
 			isa = PBXGroup;
 			children = (
+				026BFAC6201C6EE000589C73 /* views */,
 				026BFA91201C6A3100589C73 /* AppDelegate.h */,
 				026BFA92201C6A3100589C73 /* AppDelegate.m */,
 				026BFA94201C6A3100589C73 /* ViewController.h */,
@@ -113,6 +120,8 @@
 				026BFAA2201C6A3100589C73 /* Info.plist */,
 				026BFAA3201C6A3100589C73 /* main.m */,
 				026BFA9A201C6A3100589C73 /* cglottery.xcdatamodeld */,
+				026BFACD201C720A00589C73 /* CYFunction.h */,
+				026BFACE201C720A00589C73 /* CYFunction.m */,
 			);
 			path = cglottery;
 			sourceTree = "<group>";
@@ -133,6 +142,15 @@
 				026BFABA201C6A3100589C73 /* Info.plist */,
 			);
 			path = cglotteryUITests;
+			sourceTree = "<group>";
+		};
+		026BFAC6201C6EE000589C73 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				026BFACA201C715200589C73 /* LineTableViewCell.h */,
+				026BFACB201C715200589C73 /* LineTableViewCell.m */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +288,8 @@
 			files = (
 				026BFA96201C6A3100589C73 /* ViewController.m in Sources */,
 				026BFA93201C6A3100589C73 /* AppDelegate.m in Sources */,
+				026BFACC201C715200589C73 /* LineTableViewCell.m in Sources */,
+				026BFACF201C720A00589C73 /* CYFunction.m in Sources */,
 				026BFAA4201C6A3100589C73 /* main.m in Sources */,
 				026BFA9C201C6A3100589C73 /* cglottery.xcdatamodeld in Sources */,
 			);

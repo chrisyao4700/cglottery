@@ -6,8 +6,10 @@
 //  Copyright © 2018 OD INTERNATIONAL 3. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface CYFunction : NSObject
 
++(int) getRandomPing;
++(void) openWebWithURL:(NSURL *) url;
 @end
